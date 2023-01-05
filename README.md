@@ -1,5 +1,9 @@
 
 
+对于实验复现如有问题，可通过邮箱联系作者：bincanlin@qq.com
+
+The English version of the running instructions is located under the Chinese version, please turn to see it. If you have any questions, please contact the author at bincanlin@qq.com
+
 ### 树莓派硬件实验运行说明
 
 硬件实验encrypted_kWTA项目使用C++开发，基于树莓派的linux系统raspberry os : buster开发
