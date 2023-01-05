@@ -2,7 +2,7 @@
 
 对于实验复现如有问题，可通过邮箱联系作者：bincanlin@qq.com
 
-The English version of the running instructions is located under the Chinese version, please turn to see it. If you have any questions, please contact the author at bincanlin@qq.com
+The English version of the running instructions is located under the Chinese version, please turn to see it[(English version)]( #Raspberry Pi hardware experimental run description). If you have any questions, please contact the author at bincanlin@qq.com
 
 ### 树莓派硬件实验运行说明
 
