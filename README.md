@@ -1,24 +1,6 @@
-# 
-
-[TOC]
-
-# 分布式的隐私保护kWTA模型中文运行指导说明
-
-## 1.介绍：
-
-分布式的隐私保护kWTA模型研究在同一网络中的多个智能体节点如何在不泄露自身隐私信息的条件下与邻居节点交换运行kWTA模型所需要的状态信息并更新状态，使多个节点的状态最终达成平均一致性，并各自得到kWTA模型的结果。
-
-模型的实现分为MATLAB仿真实验和树莓派硬件实验，MATLAB仿真实验用于验证加密方案的可行性，树莓派硬件实验用于验证该模型应用于工业用途的可行性。
 
 
-
-## 2.实验复现说明
-
-### 1、MATLAB仿真实验运行说明
-
-安装64位的MATLAB软件，将run_me.m和statechange.m放在同一文件夹下，运行run_me.m文件即可看到实验结果
-
-### 2、树莓派硬件实验运行说明
+### 树莓派硬件实验运行说明
 
 硬件实验encrypted_kWTA项目使用C++开发，基于树莓派的linux系统raspberry os : buster开发
 
@@ -72,23 +54,7 @@ cmake --build ./cmake-build-debug/ --target client -- -j 12
 
 
 
-# Operational guidance notes for the Distributed Privacy-preserving kWTA model
-
-## 1.Introduction：
-
-The distributed privacy-preserving kWTA model studies how multiple smartbody nodes in the same network exchange the state information needed to run the kWTA model and update the state with neighboring nodes without revealing their privacy information, so that the states of multiple nodes eventually reach average consistency and each obtains the results of the kWTA model.
-
-The implementation of the model is divided into MATLAB simulation experiments and Raspberry Pi hardware experiments. MATLAB simulation experiments are used to verify the feasibility of the encryption scheme, and Raspberry Pi hardware experiments are used to verify the feasibility of applying the model to industrial use.
-
-
-
-## 2.Description of experimental replication
-
-### 1、MATLAB simulation experimental run description
-
-Install the 64-bit MATLAB software, put run_me.m and statechange.m in the same folder, and run the run_me.m file to see the experimental results
-
-### 2、Raspberry Pi hardware experimental run description
+### Raspberry Pi hardware experimental run description
 
 Hardware experiments encrypted_kWTA project developed in C++, based on the Raspberry Pi linux system raspberry os : buster for development
 
